@@ -27,5 +27,5 @@ The models are trained on data preprocessed from *preprocessing.py* and use an 8
 and test set, respectively. The performance of these models is evaluated by metrics such as mean absolute error
 and root mean squared error. After performing hyperparameter optimization on both models, it was clear that
 XGBoost would be the desired learning model for this experiment. </br>
-*Random Forest (Tuned) - MAE: 18.45, RMSE: 33.88
-*XGBoost (Tuned) - MAE: 16.29, RMSE: 28.81 </br>
+* Random Forest (Tuned) - MAE: 18.45, RMSE: 33.88 </br>
+* XGBoost (Tuned) - MAE: 16.29, RMSE: 28.81 </br>
