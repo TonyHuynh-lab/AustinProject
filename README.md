@@ -32,7 +32,6 @@ combinations, it was clear that XGBoost would be the desired learning model for 
 
 The following diagram represents the prediction of the number of bike trips by the XGBoost model with respect to the actual
 number of bike trips from station_usage. </br>
-![alt text](https://github.com/TonyHuynh-lab/AustinProject/blob/main/XGBoostPrediction.png?raw=true) </br></br>
-<img src="https://github.com/TonyHuynh-lab/AustinProject/blob/main/XGBoostPrediction.png?raw=true" alt="alt text" width="800"/>
+<img src="https://github.com/TonyHuynh-lab/AustinProject/blob/main/XGBoostPrediction.png?raw=true" alt="alt text" width="600"/></br></br>
 ***user.py***
 
