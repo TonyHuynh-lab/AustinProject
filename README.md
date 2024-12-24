@@ -7,7 +7,7 @@ or not. Predicting the demand for bikes at a station during a specific time coul
 insight into the allocation of these bikes. Using what I have learned through self-studying of machine
 learning techniques, I sought to develop a model that could accurately provide such predictions.</br></br>
 <ins>**Goal**</ins></br>
-  To predict bike demand at different stations at a given time. </br></br>
+  To predict bike demand at different stations at a given time in the Austin area. </br></br>
 <ins>**Required CSV Files**</ins></br>
 *austin-bikeshare_trips.csv* </br>
 *austin_bikeshare_stations.csv* </br>
