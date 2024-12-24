@@ -8,6 +8,6 @@ insight for the allocation of these bikes. Using what I have learned through sel
 learning techniques, I sought to develop a model that could accurately provide such predictions.</br>
 <ins>**Required CSV Files**</ins></br>
 austin-bikeshare_trips.csv </br>
-austin_bikeshare_stations.csv
+austin_bikeshare_stations.csv </br>
 These files consist of data on >649,000 bike trips over 2013-2017, which is generously provided by the City of Austin. </br>
 More information/download can be found here: https://www.kaggle.com/datasets/jboysen/austin-bike/data
