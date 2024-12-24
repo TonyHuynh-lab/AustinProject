@@ -7,7 +7,7 @@ or not. Predicting the demand for bikes at a station during a specific time coul
 insight into the allocation of these bikes. Using what I have learned through self-studying of machine
 learning techniques, I sought to develop a model that could accurately provide such predictions.</br></br>
 <ins>**Goal**</ins></br>
-
+To predict bike demand at different stations at a given time. </br></br>
 <ins>**Required CSV Files**</ins></br>
 *austin-bikeshare_trips.csv* </br>
 *austin_bikeshare_stations.csv* </br>
@@ -25,7 +25,9 @@ at each station. station_usage contains 10010 indices after filtering out missin
 This script focuses on building, training, and evaluating two machine-learning models-Random Forest and XGBoost. 
 The models are trained on data preprocessed from *preprocessing.py* and use an 80-20 data split for the training
 and test set, respectively. The performance of these models is evaluated by metrics such as mean absolute error
-and root mean squared error. After performing hyperparameter optimization on both models, it was clear that
-XGBoost would be the desired learning model for this experiment. </br>
+and root mean squared error. After performing hyperparameter optimization on both models with randomly sampled
+combinations, it was clear that XGBoost would be the desired learning model for this experiment. </br>
 * Random Forest (Tuned) - MAE: 18.45, RMSE: 33.88 </br>
 * XGBoost (Tuned) - MAE: 16.29, RMSE: 28.81 </br>
+The following diagram represents the prediction of the number of bike trips by the XGBoost model with respect to the actual
+number of bike trips from station_usage. <br>
