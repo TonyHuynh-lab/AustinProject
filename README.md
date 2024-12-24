@@ -33,5 +33,10 @@ combinations, it was clear that XGBoost would be the desired learning model for 
 The following diagram represents the prediction of the number of bike trips by the XGBoost model with respect to the actual
 number of bike trips from station_usage. </br>
 <img src="https://github.com/TonyHuynh-lab/AustinProject/blob/main/XGBoostPrediction.png?raw=true" alt="alt text" width="900"/></br></br>
-***user.py***
+***user.py***</br>
+  When running the script 'python user.py', users will be prompted with an interactive interface to 
+enter a specific station ID, hour, and day of the week to predict the number of bike trips. The script
+will use a pre-trained machine-learning model (*model.pkl*) from *model.py* for the prediction. Users
+will be shown the actual number of bike trips for their given inputs, if available, along with the predicted
+value.
 
