@@ -1,6 +1,6 @@
 # AustinProject
 <ins>**Inspiration**</ins></br>
-  As a resident here at UT Austin, I have come across countless CapMetro bikes around my campus. 
+''''As a resident here at UT Austin, I have come across countless CapMetro bikes around my campus. 
 Out of curiosity, I have wondered how often these bikes are being used. This question led
 me to factors that may influence bike usage, such as the time of the day and whether it is the weekend
 or not. Predicting the demand for bikes at a station during a specific time could provide valuable
@@ -20,7 +20,7 @@ It extracts key features such as hour, day_of_week, start_station_id (the previo
 grouped to calculate the num_trips for each combination), and the geographical locations and statuses 
 of stations. These features are contained in a singular data frame (station_usage) for further analysis. 
 Additionally, the script introduces a lag feature (num_trips_lag) that captures temporal trends in the number of trips 
-at each station. station_usage contains 10010 indices after filtering out missing data and merging the two CSV files. </br>
+at each station. station_usage contains 10010 indices after filtering out missing data and merging the two CSV files. </br></br>
 ***model.py*** </br>
   This script focuses on building, training, and evaluating two machine-learning models-Random Forest and XGBoost. 
 The models are trained on data preprocessed from *preprocessing.py* and use an 80-20 data split for the training
