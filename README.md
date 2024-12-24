@@ -12,7 +12,7 @@ learning techniques, I sought to develop a model that could accurately provide s
 These files consist of data on >649,000 bike trips over 2013-2017, which is generously provided by the City of Austin. </br>
 More information/download can be found here: https://www.kaggle.com/datasets/jboysen/austin-bike/data </br></br>
 <ins>**What Are The Files?**</ins></br>
-*preprocessing.py* </br>
+***preprocessing.py*** </br>
 This script is essential for filtering and preprocessing bike trip and station data to prepare it for modeling. 
 It extracts key features such as hour, day_of_week, start_station_id (the previous three features are
 grouped to calculate the num_trips for each combination), and the geographical locations and statuses 
