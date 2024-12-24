@@ -30,4 +30,4 @@ combinations, it was clear that XGBoost would be the desired learning model for 
 *Random Forest (Tuned) - MAE: 18.45, RMSE: 33.88 </br>
 *XGBoost (Tuned) - MAE: 16.29, RMSE: 28.81 </br>
 The following diagram represents the prediction of the number of bike trips by the XGBoost model with respect to the actual
-number of bike trips from station_usage. <br>
+number of bike trips from station_usage. </br>
