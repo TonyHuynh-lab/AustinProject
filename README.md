@@ -13,4 +13,9 @@ These files consist of data on >649,000 bike trips over 2013-2017, which is gene
 More information/download can be found here: https://www.kaggle.com/datasets/jboysen/austin-bike/data </br></br>
 <ins>**What Are The Files?**</ins></br>
 **preprocessing.py** </br>
-This file is necessary for filtering 
+This script is essential for filtering and preprocessing bike trip and station data to prepare it for modeling. 
+It extracts key features such as hour, day_of_week, start_station_id (the previous three features are
+grouped to calculate the num_trips for each combination), and the geographical locations and statuses 
+of stations. These features are contained in a singular data frame (station_usage) for further analysis. 
+Additionally, the script introduces a lag feature (num_trips_lag) that captures temporal trends in the number of trips 
+at each station. station_usage contains 10010 indices after filtering out missing data and merging the two CSV files.
