@@ -1,7 +1,7 @@
 # AustinProject
 <ins>**Inspiration**</ins></br>
   As a resident here at UT Austin, I have come across countless CapMetro bikes around my campus. 
-Out of curiosity, I have wondered how often these bikes are being used. This question led
+I have wondered how often these bikes are being used. This question led
 me to factors that may influence bike usage, such as the time of the day and whether it is the weekend
 or not. Predicting the demand for bikes at a station during a specific time could provide valuable
 insight into the allocation of these bikes. Using what I have learned through self-studying of machine
