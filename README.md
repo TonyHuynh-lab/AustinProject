@@ -6,6 +6,8 @@ me to factors that may influence bike usage, such as the time of the day and whe
 or not. Predicting the demand for bikes at a station during a specific time could provide valuable
 insight into the allocation of these bikes. Using what I have learned through self-studying of machine
 learning techniques, I sought to develop a model that could accurately provide such predictions.</br></br>
+<ins>**Goal**</ins></br>
+
 <ins>**Required CSV Files**</ins></br>
 *austin-bikeshare_trips.csv* </br>
 *austin_bikeshare_stations.csv* </br>
@@ -18,4 +20,12 @@ It extracts key features such as hour, day_of_week, start_station_id (the previo
 grouped to calculate the num_trips for each combination), and the geographical locations and statuses 
 of stations. These features are contained in a singular data frame (station_usage) for further analysis. 
 Additionally, the script introduces a lag feature (num_trips_lag) that captures temporal trends in the number of trips 
-at each station. station_usage contains 10010 indices after filtering out missing data and merging the two CSV files.
+at each station. station_usage contains 10010 indices after filtering out missing data and merging the two CSV files. </br>
+***model.py*** </br>
+This script focuses on building, training, and evaluating two machine-learning models-Random Forest and XGBoost. 
+The models are trained on data preprocessed from *preprocessing.py* and use an 80-20 data split for the training
+and test set, respectively. The performance of these models is evaluated by metrics such as mean absolute error
+and root mean squared error. After performing hyperparameter optimization on both models, it was clear that
+XGBoost would be the desired learning model for this experiment. </br>
+*Random Forest (Tuned) - MAE: 18.45, RMSE: 33.88
+*XGBoost (Tuned) - MAE: 16.29, RMSE: 28.81 </br>
