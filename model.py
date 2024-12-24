@@ -16,7 +16,7 @@ stations_file = 'austin_bikeshare_stations.csv'
 # Preprocess the data
 station_usage = preprocess(trips_file, stations_file)
 
-print(station_usage.head())
+#print(station_usage.head())
 #print(station_usage.describe())
 
 # Ensure 'start_station_id', 'hour', and 'day_of_week' are included for comparison
